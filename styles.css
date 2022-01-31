@@ -1,0 +1,51 @@
+:root{
+    --main-card-width: 75%;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+header{
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--main-card-width);
+    background-color: white;
+}
+header img{
+    width: auto;
+    height: 12rem;
+}
+#titulos{
+    display: flex;
+    flex-flow: column;
+
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 6rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#canvas{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: rgb(6,4,17);
+    background: linear-gradient(180deg, rgba(6,4,17,1) 0%, rgba(6,4,17,1) 20%, rgba(25,25,75,1) 90%, rgba(36,14,25,1) 100%);
+}
